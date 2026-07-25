@@ -1,0 +1,41 @@
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
+| Date         : Fri Jul 10 15:33:37 2026
+| Host         : DESKTOP-5C0BNO8 running 64-bit major release  (build 9200)
+| Device       : 7z020clg400-1
+| Design State : Routed(Bitstream Generated)
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Utilization Design Information
+
+Table of Contents
+-----------------
+1. Utilization by Hierarchy
+
+1. Utilization by Hierarchy
+---------------------------
+
++----------------------------+------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+|          Instance          |               Module               | Total LUTs | Logic LUTs | LUTRAMs | SRLs |  FFs | RAMB36 | RAMB18 | DSP Blocks |
++----------------------------+------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+| top_mcc2_replication_mce   |                              (top) |       1338 |       1338 |       0 |    0 | 1252 |      0 |      0 |         64 |
+|   u_core                   |           mcc_core_replication_mce |       1338 |       1338 |       0 |    0 | 1252 |      0 |      0 |         64 |
+|     (u_core)               |           mcc_core_replication_mce |         17 |         17 |       0 |    0 |   16 |      0 |      0 |          0 |
+|     u_gen                  |     mcc_core_replication_keystream |       1322 |       1322 |       0 |    0 | 1236 |      0 |      0 |         64 |
+|       (u_gen)              |     mcc_core_replication_keystream |          2 |          2 |       0 |    0 |    0 |      0 |      0 |          0 |
+|       G_CORE[0].u_core     |                 mcc1_tdm_keystream |        660 |        660 |       0 |    0 |  618 |      0 |      0 |         32 |
+|         (G_CORE[0].u_core) |                 mcc1_tdm_keystream |         81 |         81 |       0 |    0 |  214 |      0 |      0 |          0 |
+|         u_branch_mul       |                  cmul_q824_pipe__2 |        270 |        270 |       0 |    0 |  202 |      0 |      0 |         16 |
+|         u_coeff            |                  mcc1_coeff_rom__1 |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          0 |
+|         u_key              |            mcc_key_extract_q824__1 |         39 |         39 |       0 |    0 |    0 |      0 |      0 |          0 |
+|         u_sigma_mul        |                  cmul_q824_pipe__1 |        270 |        270 |       0 |    0 |  202 |      0 |      0 |         16 |
+|       G_CORE[1].u_core     | mcc1_tdm_keystream__parameterized0 |        660 |        660 |       0 |    0 |  618 |      0 |      0 |         32 |
+|         (G_CORE[1].u_core) | mcc1_tdm_keystream__parameterized0 |         81 |         81 |       0 |    0 |  214 |      0 |      0 |          0 |
+|         u_branch_mul       |                     cmul_q824_pipe |        270 |        270 |       0 |    0 |  202 |      0 |      0 |         16 |
+|         u_coeff            |                     mcc1_coeff_rom |          1 |          1 |       0 |    0 |    0 |      0 |      0 |          0 |
+|         u_key              |               mcc_key_extract_q824 |         39 |         39 |       0 |    0 |    0 |      0 |      0 |          0 |
+|         u_sigma_mul        |                  cmul_q824_pipe__3 |        270 |        270 |       0 |    0 |  202 |      0 |      0 |         16 |
++----------------------------+------------------------------------+------------+------------+---------+------+------+--------+--------+------------+
+
+

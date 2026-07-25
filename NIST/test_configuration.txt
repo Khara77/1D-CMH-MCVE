@@ -1,0 +1,15 @@
+NIST Statistical Test Suite: 2.1.2
+Input files: private_input/ch01.bin ... ch09.bin
+Input format: binary (each byte contains 8 bits)
+Sequence length: 1000000 bits
+Bitstreams per file: 64
+Tests: all 15 tests
+Significance level (alpha): 0.01
+Parameters: STS 2.1.2 defaults
+  Block Frequency M: 128
+  Non-overlapping Template m: 9
+  Overlapping Template m: 9
+  Approximate Entropy m: 10
+  Serial m: 16
+  Linear Complexity M: 500
+Result interpretation: official STS finalAnalysisReport.txt flags ('*') were used.

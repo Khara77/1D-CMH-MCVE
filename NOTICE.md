@@ -14,10 +14,6 @@ sell, or incorporate the source files or other repository materials into
 another software, hardware, research, or commercial project without prior
 written authorization from the copyright holders.
 
-The complete MCEA and MCDA implementations, dual-Zynq system projects,
-processing-system software, network integration, storage integration, and
-display integration are not included in this repository.
-
 THE MATERIALS ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS
 FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.

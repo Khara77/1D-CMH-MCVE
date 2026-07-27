@@ -1,6 +1,6 @@
 # NIST SP 800-22 Evaluation of Nine-Channel Keystreams
 
-This directory contains the statistical evaluation results of the nine binary keystream channels generated for the 1D-MCC-based multichannel video encryption experiment.
+This directory contains the statistical evaluation results of the nine binary keystream channels generated for the 1D-CMH-based multichannel video encryption experiment.
 
 ## Test Configuration
 

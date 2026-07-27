@@ -1,0 +1,29 @@
+{
+  "branches": 9,
+  "configuration_mode": "synthesis time",
+  "word_format": "Q8.24 signed two's complement",
+  "angle_format": "pi radians = 2^30",
+  "cordic_iterations": 31,
+  "rho": {
+    "real": 0.32,
+    "imag": -0.33,
+    "real_q824": 5368709,
+    "imag_q824": -5536481
+  },
+  "sigma": {
+    "real": -1.8,
+    "imag": -0.9,
+    "real_q824": -30198989,
+    "imag_q824": -15099494
+  },
+  "z0": {
+    "real": 0.1,
+    "imag": 0.2,
+    "real_q824": 1677722,
+    "imag_q824": 3355443
+  },
+  "sector_rule": "q=ceil((m*Arg(z)-pi)/(2*pi)) mod m",
+  "branch_interval": "((2q-1)pi/m, (2q+1)pi/m]",
+  "feedback_branch": 0,
+  "cfold_N": 1
+}
